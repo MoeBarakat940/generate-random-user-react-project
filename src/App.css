@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Signika Negative', sans-serif; 
+  font-weight: bold; 
+}
+
+body{
+  background-color: #5074f3;
+}
+img{
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+}
+.main{
+  width: 30%;
+  height: 13em;
+  position: absolute;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 0.5em;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+.pfp{
+  
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin: -2.75em auto 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 0 0.3em #ffffff, 0 0 0 0.6em #5074f3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+button{
+  position: absolute;
+  transform: translate(-75%, -52%);
+  top: 75%;
+  left: 52%;
+  padding: 0.5em 2em;
+  background-color: #fff;
+  border: none;
+  border-radius: .2em;
+  cursor: pointer;
+  
+}
+
+button:hover{
+  background-color: #5d72e712;
+  border: 2px solid #fff;
+  border-radius: .4em;
+}
